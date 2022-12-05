@@ -10,8 +10,8 @@
 
 # [Project 2: Python Search Engine](https://github.com/rpwhite02/Portfolio/tree/main/Project2)
 * Assignment from my Data Programming class which utilized classes and objects in Python.
-* Code to setup a server to host the search engine was given to us, as well as HTML and CSS code
-that set up the presentation and functionality of the search engine.
+* Code to setup a server to host the search engine was given to the class, as well as HTML and CSS
+code that set up the presentation and functionality of the search engine webpage.
 * The document file contains the document class which represents all the data and words in a
 single web page (document) and computes the term frequency for a given term in a document.
 * The search engine file contains the search engine class which represents a directory of document
