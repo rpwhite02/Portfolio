@@ -1,3 +1,15 @@
+"""
+Imported dataset as "nces-ed-attainment.csv".
+Dataset debreif: -Year is the year for the row.
+                 -Sex is the sex of the people for the row: F for female, M for male, or A for all students.
+                 -Min degree is the degree of educational attainment for the row: high school, associate's, bachelor's, or master's.
+                 -Total is the overall percentage of people of the Sex in the Year with at least the Min degree of educational
+                 attainment.
+                 -White, Black, Hispanic, Asian, Pacific Islander, American Indian/Alaska Native, Two or more races is the percentage of
+                 students of the specified race (and of the Sex in the Year) with at least the Min degree of educational attainment.
+"""
+
+
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -74,8 +86,8 @@ def bar_chart_high_school(data):
 def plot_hispanic_min_degree(data):
     """
     The plot_hispanic_min_degree function takes a dataset as a parameter and
-    returns a chart type of choice for this plot. Label the axis and title the
-    plot accordingly.
+    returns a bar chart with the x axis as Year and y axis as percentage of
+    hispanic people with minimum degrees.
     """
     is_date = (data['Year'] >= 1990) & (data['Year'] <= 2010)
     is_bachelors = data['Min degree'] == "bachelor's"
