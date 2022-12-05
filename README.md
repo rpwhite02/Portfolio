@@ -1,4 +1,4 @@
-# Data Science Portfolio
+# Ronan White
 
 # [Project 1: Data Vizualtions and Predictions](https://github.com/rpwhite02/Portfolio/blob/main/Project1.py)
 * Use python libraries pandas, matplotlib, seaborn, and scikit-learn.
