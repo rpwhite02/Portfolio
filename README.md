@@ -1,6 +1,6 @@
 # Data Science Portfolio
 
-# [Project 1: Data Vizualtions and Predictions](
+# [Project 1: Data Vizualtions and Predictions](https://github.com/rpwhite02/Portfolio/blob/main/Project1.py)
 * Use python libraries pandas, matplotlib, seaborn, and scikit-learn.
 * Used pandas to create functions that solve questions regarding the dataset.
 * Created lineplots and barplots using matplotlib and seaborn, as well as a decision tree regression model using scikit-learn.
