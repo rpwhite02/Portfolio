@@ -8,8 +8,8 @@ selected levels of educational attainment, by race/ethnicity and sex: Selected y
 * Answered questions regarding the types of degrees that percentages of people of different races and genders acquire and predicted
 degree types using a decision tree regression model.
 
-![](/images/hispanicplot.png)
 ![](/images/lineplot.png)
+![](/images/hispanicplot.png)
 
 # [Project 2: Python Search Engine](https://github.com/rpwhite02/Portfolio/tree/main/Project2)
 * Assignment from my Data Programming class which utilized classes and objects in Python.
