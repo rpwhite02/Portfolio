@@ -2,11 +2,11 @@
 
 # [Project 1: Data Visualizations and Predictions](https://github.com/rpwhite02/Portfolio/tree/main/Project1)
 * Use python libraries pandas, matplotlib, seaborn, and scikit-learn.
-* Used pandas to create functions that solve questions regarding the dataset.
 * Created lineplots and barplots using matplotlib and seaborn, as well as a decision tree regression model using scikit-learn.
 * Based on a dataset from the National Center for Education Statistics called "Percentage of persons 25 to 29 years old with
 selected levels of educational attainment, by race/ethnicity and sex: Selected years, 1920 through 2018."
-* Answered questions regarding the types of degrees that percentages of people of different races and genders acquire.
+* Answered questions regarding the types of degrees that percentages of people of different races and genders acquire and predicted
+degree types using a decision tree regression model.
 
 ![](https://github.com/rpwhite02/Portfolio/blob/main/images/hispanicplot.png)
 ![](https://github.com/rpwhite02/Portfolio/blob/main/images/lineplot.png)
