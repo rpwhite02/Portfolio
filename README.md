@@ -6,8 +6,8 @@
 * Created lineplots and barplots using matplotlib and seaborn, as well as a decision tree regression model using scikit-learn.
 * Based on a dataset from the National Center for Education Statistics called "Percentage of persons 25 to 29 years old with selected levels of educational attainment, by race/ethnicity and sex: Selected years, 1920 through 2018."
 
-[](https://github.com/rpwhite02/Portfolio/blob/main/images/hispanicplot.png)
-[](https://github.com/rpwhite02/Portfolio/blob/main/images/lineplot.png)
+[image1](https://github.com/rpwhite02/Portfolio/blob/main/images/hispanicplot.png)
+[image2](https://github.com/rpwhite02/Portfolio/blob/main/images/lineplot.png)
 
 # [Project 2: Python Search Engine](https://github.com/rpwhite02/Portfolio/tree/main/Project2)
 * Assignment from my Data Programming class which utilized classes and objects in Python.
