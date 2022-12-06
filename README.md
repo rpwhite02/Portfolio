@@ -25,5 +25,5 @@ in a search query is to what the user is searching for.
 well as calculate the importance of a word in a search query and present web pages (documents) that
 correlate with the search query. Code to set up the server and website isn't included.
 
-![](/images/Screenshot%20(32).png)
-![](/images/Screenshot%20(33).png)
+![](images/Screenshot(32).png))
+![](/images/Screenshot(33).png)
