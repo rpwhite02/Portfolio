@@ -23,4 +23,4 @@ search query in each document object. In other words, this class computes how im
 in a search query is to what the user is searching for.
 * The included python code for this project is just to look through web pages and scan them for all words, as
 well as calculate the importance of a word in a search query and present web pages (documents) that
-correlate with the search query.
+correlate with the search query. Code to set up the server and website isn't included.
