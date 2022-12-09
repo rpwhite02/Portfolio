@@ -28,4 +28,5 @@ correlate with the search query. Code to set up the server and website isn't inc
 ![](/images/searchbar.png)
 ![](/images/searchresults.png)
 
-# [Project 3: Mapping using Geopandas]()
+# [Project 3: Mapping using Geopandas](https://github.com/rpwhite02/Portfolio/blob/main/Project%203/code.py)
+
