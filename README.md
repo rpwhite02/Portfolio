@@ -29,4 +29,6 @@ correlate with the search query. Code to set up the server and website isn't inc
 ![](/images/searchresults.png)
 
 # [Project 3: Mapping using Geopandas](https://github.com/rpwhite02/Portfolio/blob/main/Project%203/code.py)
-
+* Used Geopandas library in python to map census tracts and counties in Washington state.
+* Showed which census tracts have access to food source within 0.5 miles (urban) and 10 miles (rural).
+* Calculated which census tracts we have food access data for in a percentage.
