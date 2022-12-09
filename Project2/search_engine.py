@@ -2,7 +2,7 @@ import os
 from document import Document
 import math
 from operator import itemgetter
-from cse163_utils import normalize_token
+from utils import normalize_token
 
 
 class SearchEngine:
