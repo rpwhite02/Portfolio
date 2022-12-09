@@ -8,8 +8,8 @@ selected levels of educational attainment, by race/ethnicity and sex: Selected y
 * Answered questions regarding the types of degrees that percentages of people of different races and genders acquire and predicted
 degree types using a decision tree regression model.
 
-![](/images/lineplot.png)
-![](/images/hispanicplot.png)
+![Plots the percentage of people in the United States with a minimum degree of Bachelor's](/images/lineplot.png)
+![Plots two bars next to each other comparing the minimum degrees Hispanic people obtain](/images/hispanicplot.png)
 
 # [Project 2: Python Search Engine](https://github.com/rpwhite02/Portfolio/tree/main/Project2)
 * Assignment from my Data Programming class which utilized classes and objects in Python.
@@ -25,10 +25,13 @@ in a search query is to what the user is searching for.
 well as calculate the importance of a word in a search query and present web pages (documents) that
 correlate with the search query. Code to set up the server and website isn't included.
 
-![](/images/searchbar.png)
-![](/images/searchresults.png)
+![The search bar before searching](/images/searchbar.png)
+![Suggested results after typing "computer" into the seach bar](/images/searchresults.png)
 
 # [Project 3: Mapping using Geopandas](https://github.com/rpwhite02/Portfolio/blob/main/Project%203/code.py)
 * Used Geopandas library in python to map census tracts and counties in Washington state.
 * Showed which census tracts have access to food source within 0.5 miles (urban) and 10 miles (rural).
 * Calculated which census tracts we have food access data for in a percentage.
+
+![Map of census tracts in Washington State](/images/censustractmap.png)
+![We're missing data for some census tracts](/images/censustractpopulations.png)
