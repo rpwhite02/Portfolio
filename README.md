@@ -8,9 +8,9 @@ selected levels of educational attainment, by race/ethnicity and sex: Selected y
 * Answered questions regarding the types of degrees that percentages of people of different races and genders acquire and predicted
 degree types using a decision tree regression model.
 
-![Plots the percentage of people in the United States with a minimum degree of Bachelor's](/images/lineplot.png)
+![](/images/lineplot.png)
 *Plot of the percentage of people in the United State with a minimum degree of Bachelor's*
-![Plots two bars next to each other comparing the minimum degrees Hispanic people obtain](/images/hispanicplot.png)
+![](/images/hispanicplot.png)
 *Plot of two bars next to each other comparing the minimum degrees Hispanic people obtain*
 
 # [Project 2: Python Search Engine](https://github.com/rpwhite02/Portfolio/tree/main/Project2)
@@ -27,17 +27,20 @@ in a search query is to what the user is searching for.
 well as calculate the importance of a word in a search query and present web pages (documents) that
 correlate with the search query. Code to set up the server and website isn't included.
 
-![The search bar before searching](/images/searchbar.png)
+![](/images/searchbar.png)
 *The search bar before searching*
-![Suggested results after typing "computer" into the seach bar](/images/searchresults.png)
+![](/images/searchresults.png)
 *Suggested results after typing "computer" into the search bar*
 
 # [Project 3: Mapping using Geopandas](https://github.com/rpwhite02/Portfolio/blob/main/Project%203/code.py)
+* Used 2 different datasets, one was a shapefile in order to map the shapes of the countie and census tracts and
+the other file had data regarding each census tracts food access data.
 * Used Geopandas library in python to map census tracts and counties in Washington state.
 * Showed which census tracts have access to food source within 0.5 miles (urban) and 10 miles (rural).
 * Calculated which census tracts we have food access data for in a percentage.
+# Displayed data processing skills using pandas and created visualizations based on filtered/processed data
 
-![Map of census tracts in Washington State](/images/censustractmap.png)
+![](/images/censustractmap.png)
 *Map of census tracts in Washington State*
-![We're missing data for some census tracts](/images/censustractpopulations.png)
+![](/images/censustractpopulations.png)
 *We're missing data for some census tracts*
