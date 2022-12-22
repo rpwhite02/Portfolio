@@ -9,9 +9,16 @@ selected levels of educational attainment, by race/ethnicity and sex: Selected y
 degree types using a decision tree regression model.
 
 ![](/images/lineplot.png)
-*Plot of the percentage of people in the United State with a minimum degree of Bachelor's*
+<figcaption align = "center">
+<b> Plot showing percentage of all people obtaining minimum of Bachelor's degree over time</b>
+</figcaption>
+
+
 ![](/images/hispanicplot.png)
-*Plot of two bars next to each other comparing the minimum degrees Hispanic people obtain*
+<figcaption align = "center">
+<b>Plot of two bars next to each other comparing the minimum degrees Hispanic people obtain</b>
+</figcaption>
+
 
 # [Project 2: Python Search Engine](https://github.com/rpwhite02/Portfolio/tree/main/Project2)
 * Assignment from my Data Programming class which utilized classes and objects in Python.
@@ -28,9 +35,16 @@ well as calculate the importance of a word in a search query and present web pag
 correlate with the search query. Code to set up the server and website isn't included.
 
 ![](/images/searchbar.png)
-*The search bar before searching*
+<figcaption align = "center">
+<b>The search bar before entering search query</b>
+</figcaption>
+
+
 ![](/images/searchresults.png)
-*Suggested results after typing "computer" into the search bar*
+<figcaption align = "center">
+<b>Suggested results after typing "computer" into the search bar</b>
+</figcaption>
+
 
 # [Project 3: Mapping using Geopandas](https://github.com/rpwhite02/Portfolio/blob/main/Project%203/code.py)
 * Used 2 different datasets, one was a shapefile in order to map the shapes of the countie and census tracts and
@@ -41,6 +55,12 @@ the other file had data regarding each census tracts food access data.
 # Displayed data processing skills using pandas and created visualizations based on filtered/processed data
 
 ![](/images/censustractmap.png)
-*Map of census tracts in Washington State*
+<figcaption align = "center">
+<b>Map of census tracts in Washington state</b>
+</figcaption>
+
+
 ![](/images/censustractpopulations.png)
-*We're missing data for some census tracts*
+<figcaption align = "center">
+<b>We're missing data for some census tracts</b>
+</figcaption>
