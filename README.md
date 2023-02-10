@@ -46,21 +46,5 @@ correlate with the search query. Code to set up the server and website isn't inc
 </figcaption>
 
 
-# [Project 3: Mapping using Geopandas](https://github.com/rpwhite02/Portfolio/tree/main/Project%203)
-* Used 2 different datasets, one was a shapefile in order to map the shapes of the countie and census tracts and
-the other file had data regarding each census tracts food access data.
-* Used Geopandas library in python to map census tracts and counties in Washington state.
-* Showed which census tracts have access to food source within 0.5 miles (urban) and 10 miles (rural).
-* Calculated which census tracts we have food access data for in a percentage.
-# Displayed data processing skills using pandas and created visualizations based on filtered/processed data
+# [Project 3: Ridge and LASSO Regression using scikit-learn
 
-![](/images/censustractmap.png)
-<figcaption align = "center">
-<b>Map of census tracts in Washington state</b>
-</figcaption>
-
-
-![](/images/censustractpopulations.png)
-<figcaption align = "center">
-<b>We're missing data for some census tracts</b>
-</figcaption>
