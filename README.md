@@ -1,6 +1,6 @@
 # Ronan White
 
-# [Project 1: Data Visualizations and Predictions](https://github.com/rpwhite02/Portfolio/tree/main/Project 1)
+# [Project 1: Data Visualizations and Predictions](https://github.com/rpwhite02/Portfolio/tree/main/Project%201)
 * Use python libraries pandas, matplotlib, seaborn, and scikit-learn.
 * Created lineplots and barplots using matplotlib and seaborn, as well as a decision tree regression model using scikit-learn.
 * Based on a dataset from the National Center for Education Statistics called "Percentage of persons 25 to 29 years old with
@@ -20,7 +20,7 @@ degree types using a decision tree regression model.
 </figcaption>
 
 
-# [Project 2: Python Search Engine](https://github.com/rpwhite02/Portfolio/tree/main/Project 2)
+# [Project 2: Python Search Engine](https://github.com/rpwhite02/Portfolio/tree/main/Project%202)
 * Assignment from my Data Programming class which utilized classes and objects in Python.
 * Code to setup a server to host the search engine was given to the class, as well as HTML and CSS
 code that set up the presentation and functionality of the search engine website.
@@ -46,7 +46,7 @@ correlate with the search query. Code to set up the server and website isn't inc
 </figcaption>
 
 
-# [Project 3: Mapping using Geopandas](https://github.com/rpwhite02/Portfolio/tree/main/Project 3)
+# [Project 3: Mapping using Geopandas](https://github.com/rpwhite02/Portfolio/tree/main/Project%203)
 * Used 2 different datasets, one was a shapefile in order to map the shapes of the countie and census tracts and
 the other file had data regarding each census tracts food access data.
 * Used Geopandas library in python to map census tracts and counties in Washington state.
