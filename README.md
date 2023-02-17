@@ -46,5 +46,5 @@ correlate with the search query. Code to set up the server and website isn't inc
 </figcaption>
 
 
-# [Project 3: Ridge and LASSO Regression using scikit-learn
+# [Project 3: Ridge and LASSO Regression using scikit-learn]()
 
