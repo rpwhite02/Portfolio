@@ -64,7 +64,8 @@ using that specific l2 penalty. Below is the resulting pandas dataframe.
 </figcaption>
 
 
-* Next, we do the same thing but for LASSO regression. Below is the resulting pandas dataframe.
+* Next, we do the same thing but for LASSO regression but with different hyperparameter choices for the l1 penalty.
+Below is the resulting pandas dataframe.
 
 
 ![](/images/lasso_data.png)
