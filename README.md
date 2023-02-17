@@ -72,8 +72,8 @@ using that specific l2 penalty. Below is the resulting pandas dataframe.
   <b>The lasso data used to visualize our RMSE's as the l1 penalty changes</b>
 </figcaption>
 
-* After we have these dataframes, we can plot how the RMSE values change as the l1 and l2 penalties
-change. Below are the plots for Ridge and LASSO.
+* After we have these dataframes, we can display the observations on a plot and see how the RMSE values 
+change as the l1 and l2 penalties change. Below are the plots for Ridge and LASSO.
 
 ![](/images/ridge_error_visual.png)
 <figcaption align = "center">
