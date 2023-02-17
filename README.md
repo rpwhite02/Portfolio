@@ -65,6 +65,9 @@ using that specific l2 penalty. Below is the resulting pandas dataframe.
 </figcaption>
 
 
+* Next, we do the same thing but for LASSO regression. Below is the resulting pandas dataframe.
+
+
 ![](/images/lasso_data.png)
 <figcaption align = "center">
 <b>The lasso data used to visualize our RMSE's as the l1 penalty changes</b>
