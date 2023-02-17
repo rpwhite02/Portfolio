@@ -10,13 +10,13 @@ degree types using a decision tree regression model.
 
 ![](/images/lineplot.png)
 <figcaption align = "center">
-<b> Plot showing percentage of all people obtaining minimum of Bachelor's degree over time</b>
+  <b> Plot showing percentage of all people obtaining minimum of Bachelor's degree over time</b>
 </figcaption>
 
 
 ![](/images/hispanicplot.png)
 <figcaption align = "center">
-<b>Plot of two bars next to each other comparing the minimum degrees Hispanic people obtain</b>
+  <b>Plot of two bars next to each other comparing the minimum degrees Hispanic people obtain</b>
 </figcaption>
 
 
@@ -36,13 +36,13 @@ correlate with the search query. Code to set up the server and website isn't inc
 
 ![](/images/searchbar.png)
 <figcaption align = "center">
-<b>The search bar before entering search query</b>
+  <b>The search bar before entering search query</b>
 </figcaption>
 
 
 ![](/images/searchresults.png)
 <figcaption align = "center">
-<b>Suggested results after typing "computer" into the search bar</b>
+  <b>Suggested results after typing "computer" into the search bar</b>
 </figcaption>
 
 
@@ -56,12 +56,11 @@ LASSO models.
 * Then, move on to Ridge regression where we create a new pandas dataframe to store certain l2 penalties for our Ridge models,
 the model with its alpha value (l2 penalty), the model's train root mean squared error, and the model's validation root mean squared error
 using that specific l2 penalty. Below is the resulting pandas dataframe.
-* Next, we do the same thing but for LASSO regression. Below is the resulting pandas dataframe.
 
 
 ![](/images/ridge_data.png)
 <figcaption align = "center">
-<b>The ridge data used to visualize our RMSE's as the l2 penalty changes</b>
+  <b>The ridge data used to visualize our RMSE's as the l2 penalty changes</b>
 </figcaption>
 
 
@@ -70,5 +69,19 @@ using that specific l2 penalty. Below is the resulting pandas dataframe.
 
 ![](/images/lasso_data.png)
 <figcaption align = "center">
-<b>The lasso data used to visualize our RMSE's as the l1 penalty changes</b>
+  <b>The lasso data used to visualize our RMSE's as the l1 penalty changes</b>
+</figcaption>
+
+* After we have these dataframes, we can plot how the RMSE values change as the l1 and l2 penalties
+change. Below are the plots for Ridge and LASSO.
+
+![](/images/ridge_error_visual.png)
+<figcaption align = "center">
+  <b>The visual for Ridge regression</b>
+</figcaption>
+
+
+![](/images/lasso_error_visual.png)
+<figcaption align = "center">
+  <b>The visual for LASSO regression</b>
 </figcaption>
