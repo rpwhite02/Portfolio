@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>COVID cases in the US</title>
+    <title>Proportional Symbol COVID Map</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        #legend {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 110px;
+            background: #fff;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            padding: 10px 20px 10px 10px;
+            border-radius: 3px;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .break {
+            position: relative;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .dot {
+            display: inline-block;
+            margin-top: 5px;
+            border-radius: 50%;
+            opacity: 0.6;
+        }
+
+        .dot-label {
+            position: absolute;
+            top: 0;
+            right: 0;
+            font-style: italic;
+        }
+
+        a {
+            color: black
+        }
+
+        #title {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 20px;
+            margin-left: 20px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 25pt;
+            color: white
+        }
+
+        #subtitle {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 70px;
+            margin-left: 190px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 15pt;
+            color: white
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <div id="legend"></div>
+    <div id="title">
+        Covid Cases in the US by County
+    </div>
+    <div id="subtitle">
+        2020
+    </div>
+    <script>
+        mapboxgl.accessToken =
+            'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
+        let map = new mapboxgl.Map({
+            container: 'map', // container ID
+            style: 'mapbox://styles/mapbox/dark-v10',
+            zoom: 5, // starting zoom
+            minZoom: 3, // minimum zoom level of the map
+            center: [-95, 40], // starting center
+        });
+        const grades = [200, 1000, 5000, 20000],
+            colors = ['rgb(239, 243, 255)', 'rgb(189, 215, 231)', 'rgb(107, 174, 214)', 'rgb(49, 130, 189)', 'rgb(8, 81, 156)'],
+            radii = [5, 10, 20, 35, 55];
+
+        map.on('load', () => {
+
+            map.addSource('us-covid-2020-counts', {
+                type: 'geojson',
+                data: 'assets/us-covid-2020-counts.geojson'
+            });
+
+            map.addLayer({
+                'id': 'covid-point',
+                'type': 'circle',
+                'source': 'us-covid-2020-counts',
+                'minzoom': 4,
+                'paint': {
+                    'circle-radius': {
+                        'property': 'cases',
+                        'stops': [
+                            [grades[0], radii[0]],
+                            [grades[1], radii[1]],
+                            [grades[2], radii[2]],
+                            [grades[3], radii[3]]
+                        ]
+                    },
+                    'circle-color': {
+                        'property': 'cases',
+                        'stops': [
+                            [grades[0], colors[0]],
+                            [grades[1], colors[1]],
+                            [grades[2], colors[2]],
+                            [grades[3], colors[3]]
+                        ]
+                    },
+                    'circle-stroke-color': 'white',
+                    'circle-stroke-width': 1,
+                    'circle-opacity': 0.6
+                }
+            });
+            map.on('click', 'covid-point', (event) => {
+                new mapboxgl.Popup()
+                    .setLngLat(event.features[0].geometry.coordinates)
+                    .setHTML(`<strong>Cases:</strong> ${event.features[0].properties.cases}`)
+                    .addTo(map);
+            });
+        });
+        const legend = document.getElementById('legend');
+        var labels = ['<strong>Cases</strong>'],
+            vbreak;
+        for (var i = 0; i < grades.length; i++) {
+            vbreak = grades[i];
+            dot_radii = 2 * radii[i];
+            labels.push(
+                '<p class="break"><i class="dot" style="background:' + colors[i] + '; width: ' + dot_radii +
+                'px; height: ' +
+                dot_radii + 'px; "></i> <span class="dot-label" style="top: ' + dot_radii / 2 + 'px;">' + vbreak +
+                '</span></p>');
+        }
+        const source =
+            '<p style="text-align: right; font-size:10pt">Source: <a href="github.com/nytime/covid-19-data/blob/43d32dde2f87bd4dafbb7d23f5d9e878124018b8/live/us-counties.csv">NYTimes</a></p>'
+        legend.innerHTML = labels.join('') + source;
+    </script>
+
+</body>
+
+</html>
