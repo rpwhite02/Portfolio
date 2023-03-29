@@ -1,6 +1,6 @@
 # Ronan White
 
-# [Project 1: Data Visualizations and Predictions](https://github.com/rpwhite02/Portfolio/tree/main/Project%201)
+# [Project 1: Basic Data Visualizations and Predictions](https://github.com/rpwhite02/Portfolio/tree/main/Project%201)
 * Use python libraries pandas, matplotlib, seaborn, and scikit-learn.
 * Created lineplots and barplots using matplotlib and seaborn, as well as a decision tree regression model using scikit-learn.
 * Based on a dataset from the National Center for Education Statistics called "Percentage of persons 25 to 29 years old with
