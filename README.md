@@ -7,6 +7,9 @@
 selected levels of educational attainment, by race/ethnicity and sex: Selected years, 1920 through 2018."
 * Answered questions regarding the types of degrees that percentages of people of different races and genders acquire and predicted
 degree types using a decision tree regression model.
+* Created and immplemented a function that creates a decision tree regressor model and predicts the total/percentage of degrees
+(label) attained for a given sex, mminimum degree, and year (features). Function returns bmean squared error as a basic value
+to measure the model's accuracy.
 
 ![](/images/lineplot.png)
 <figcaption align = "center">
