@@ -84,8 +84,25 @@ change as the l1 and l2 penalties change. Below are the plots for Ridge and LASS
   <b>The visual for Ridge regression</b>
 </figcaption>
 
-
 ![](/images/lasso_error_visual.png)
 <figcaption align = "center">
   <b>The visual for LASSO regression</b>
 </figcaption>
+
+
+# [Project 4: Web Mapping Covid Cases and Rates using HTML, CSS, and JavaScript](https://github.com/rpwhite02/Portfolio/tree/main/Project%204)
+* Given shapefile (.shp) data for both case totals and rates, transform into geojson so that we can read
+the data in using JavaScript
+* Obtained a MapBox token so that we can have a basemap for both of our web maps, no need to create our own basemap.
+
+![](/images/choropleth.png)
+
+* [Map 1](https://rpwhite02.github.io/Portfolio/Project%204/map1.html) is a choropleth map that shows each U.S. county and
+their COVID rates for 2020. When you hover over a specific county, their COVID rate for 2020 will come up. The population
+data used for calculating each county's rate were taken from the 2018 ACS 5 year estimates.
+
+![](/images/propsymbol.png)
+
+* [Map 2](https://rpwhite02.github.io/Portfolio/Project%204/map2.html) is a proportional symbol map that is a good visualization
+for a general overview of the distribution of COVID cases throughout the United States. The data used for this map was from The
+New York Times.
