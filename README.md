@@ -1,4 +1,4 @@
-# [Ronan White](www.linkedin.com/in/ronanwhite)
+# [Ronan White](https://www.linkedin.com/in/ronanwhite)
 
 # This is my portfolio to showcase some of my data analysis/science and GIS projects, hosted on Github Pages.
 
