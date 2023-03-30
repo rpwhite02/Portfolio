@@ -1,5 +1,13 @@
 # [Ronan White](www.linkedin.com/in/ronanwhite)
 
+This is my portfolio to showcase some of my data analysis/science and GIS projects, hosted on Github Pages.
+Projects 1 and 2 show my ability to use basic data-driven programming libraries such as pandas, matplotlib, and 
+scikit-learn. Also, I demonstrate my abilities to perform object oriented programming in Pytho in project 2.
+Project 3 goes more in depth with machine learning functions inside scikit-learn, and creating visualizations using
+matplotlib.
+Project 4 demonstrates my ability to create effective web maps using HTML, CSS, and JavaScript. These maps use geojson
+formatted data and are interactive.
+
 # [Project 1: Basic Data Visualizations and Predictions](https://github.com/rpwhite02/Portfolio/tree/main/Project%201)
 * Use python libraries pandas, matplotlib, seaborn, and scikit-learn.
 * Created lineplots and barplots using matplotlib and seaborn, as well as a decision tree regression model using scikit-learn.
@@ -8,7 +16,7 @@ selected levels of educational attainment, by race/ethnicity and sex: Selected y
 * Answered questions regarding the types of degrees that percentages of people of different races and genders acquire and predicted
 degree types using a decision tree regression model.
 * Created and immplemented a function that creates a decision tree regressor model and predicts the total/percentage of degrees
-(label) attained for a given sex, mminimum degree, and year (features). Function returns bmean squared error as a basic value
+(label) attained for a given sex, mminimum degree, and year (features). Function returns mean squared error as a basic value
 to measure the model's accuracy.
 
 ![](/images/lineplot.png)
