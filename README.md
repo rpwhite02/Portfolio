@@ -2,14 +2,7 @@
 
 # This is my portfolio to showcase some of my data analysis/science and GIS projects, hosted on Github Pages.
 
-Project 1[^1].
-* Project 2[^2] shows my ability to perform object oriented programming in Python.
-* Project 3[^3] goes more in depth with machine learning functions inside scikit-learn, and creating visualizations using
-matplotlib.
-* Project 4[^4] demonstrates my ability to create effective web maps using HTML, CSS, and JavaScript. These maps use geojson
-formatted data and are interactive.
-
-#[^1]: [Project 1: Basic Data Visualizations and Predictions](https://github.com/rpwhite02/Portfolio/tree/main/Project%201)
+# [Project 1: Basic Data Visualizations and Predictions](https://github.com/rpwhite02/Portfolio/tree/main/Project%201)
 * Use python libraries pandas, matplotlib, seaborn, and scikit-learn.
 * Created lineplots and barplots using matplotlib and seaborn, as well as a decision tree regression model using scikit-learn.
 * Based on a dataset from the National Center for Education Statistics called "Percentage of persons 25 to 29 years old with
@@ -32,7 +25,7 @@ to measure the model's accuracy.
 </figcaption>
 
 
-# [^2]: [Project 2: Python Search Engine](https://github.com/rpwhite02/Portfolio/tree/main/Project%202)
+# [Project 2: Python Search Engine](https://github.com/rpwhite02/Portfolio/tree/main/Project%202)
 * Assignment from my Data Programming class which utilized classes and objects in Python.
 * Code to setup a server to host the search engine was given to the class, as well as HTML and CSS
 code that set up the presentation and functionality of the search engine website.
@@ -58,7 +51,7 @@ correlate with the search query. Code to set up the server and website isn't inc
 </figcaption>
 
 
-# [^3]: [Project 3: Analyzing Ridge and LASSO Regression using scikit-learn and matplotlib](https://github.com/rpwhite02/Portfolio/tree/main/Project%203)
+# [Project 3: Analyzing Ridge and LASSO Regression using scikit-learn and matplotlib](https://github.com/rpwhite02/Portfolio/tree/main/Project%203)
 * Given a dataset with features such as # bedroomms, # bathrooms, square footage, year built, zip code, and more,
 predict price (the label).
 * Used pandas to do some feature engineering and to select features from the dataset.
@@ -99,7 +92,7 @@ change as the l1 and l2 penalties change. Below are the plots for Ridge and LASS
 </figcaption>
 
 
-# {^4]:[Project 4: Web Mapping Covid Cases and Rates using HTML, CSS, and JavaScript](https://github.com/rpwhite02/Portfolio/tree/main/Project%204)
+# [Project 4: Web Mapping Covid Cases and Rates using HTML, CSS, and JavaScript](https://github.com/rpwhite02/Portfolio/tree/main/Project%204)
 * Given shapefile (.shp) data for both case totals and rates, transform into geojson so that we can read
 the data in using JavaScript
 * Obtained a MapBox token so that we can have a basemap for both of our web maps, no need to create our own basemap.
