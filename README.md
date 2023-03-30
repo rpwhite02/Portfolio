@@ -1,4 +1,4 @@
-# [Ronan White](linkedin.com/in/ronanwhite)
+# [Ronan White](www.linkedin.com/in/ronanwhite)
 
 # [Project 1: Basic Data Visualizations and Predictions](https://github.com/rpwhite02/Portfolio/tree/main/Project%201)
 * Use python libraries pandas, matplotlib, seaborn, and scikit-learn.
