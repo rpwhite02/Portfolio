@@ -1,7 +1,7 @@
 # [Ronan White](www.linkedin.com/in/ronanwhite)
 
 This is my portfolio to showcase some of my data analysis/science and GIS projects, hosted on Github Pages.
-* Project 1[^1] shows my ability to use basic data-driven programming libraries such as pandas, matplotlib, 
+Project 1[^1]. shows my ability to use basic data-driven programming libraries such as pandas, matplotlib, 
 and scikit-learn.
 * Project 2[^2] shows my ability to perform object oriented programming in Python.
 * Project 3[^3] goes more in depth with machine learning functions inside scikit-learn, and creating visualizations using
