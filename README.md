@@ -51,48 +51,7 @@ correlate with the search query. Code to set up the server and website isn't inc
 </figcaption>
 
 
-## [Project 3: Analyzing Ridge and LASSO Regression using scikit-learn and matplotlib](https://github.com/rpwhite02/Portfolio/tree/main/Project%203)
-* Given a dataset with features such as # bedroomms, # bathrooms, square footage, year built, zip code, and more,
-predict price (the label).
-* Used pandas to do some feature engineering and to select features from the dataset.
-* Regularized and standardized the features used so that we can meet the assumptions of the Ridge and LASSO models.
-* First fit a linear regression model and obtain the root mean squared error as a baseline to compare with Ridge and
-LASSO models.
-* Then, move on to Ridge regression where we create a new pandas dataframe to store certain l2 penalties for our Ridge models,
-the model with its alpha value (l2 penalty), the model's train root mean squared error, and the model's validation root mean squared error
-using that specific l2 penalty. Below is the resulting pandas dataframe.
-
-
-![](/images/ridge_data.png)
-<figcaption align = "center">
-  <b>The ridge data used to visualize our RMSE's as the l2 penalty changes</b>
-</figcaption>
-
-
-* Next, we do the same thing but for LASSO regression but with different hyperparameter choices for the l1 penalty.
-Below is the resulting pandas dataframe.
-
-
-![](/images/lasso_data.png)
-<figcaption align = "center">
-  <b>The lasso data used to visualize our RMSE's as the l1 penalty changes</b>
-</figcaption>
-
-* After we have these dataframes, we can display the observations on a plot and see how the RMSE values 
-change as the l1 and l2 penalties change. Below are the plots for Ridge and LASSO.
-
-![](/images/ridge_error_visual.png)
-<figcaption align = "center">
-  <b>The visual for Ridge regression</b>
-</figcaption>
-
-![](/images/lasso_error_visual.png)
-<figcaption align = "center">
-  <b>The visual for LASSO regression</b>
-</figcaption>
-
-
-## [Project 4: Web Mapping Covid Cases and Rates using HTML, CSS, and JavaScript](https://github.com/rpwhite02/Portfolio/tree/main/Project%204)
+## [Project 3: Web Mapping Covid Cases and Rates using HTML, CSS, and JavaScript](https://github.com/rpwhite02/Portfolio/tree/main/Project%204)
 * Given shapefile (.shp) data for both case totals and rates, transform into geojson so that we can read
 the data in using JavaScript
 * Obtained a MapBox token so that we can have a basemap for both of our web maps, no need to create our own basemap.
