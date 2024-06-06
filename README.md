@@ -1,6 +1,6 @@
 # [Ronan White](https://www.linkedin.com/in/ronanwhite)
 
-# This is my portfolio to showcase some of my data analysis/science and GIS projects, hosted on Github Pages.
+# This is my portfolio to showcase some of my data science and GIS projects, hosted on Github Pages.
 
 ## [Project 1: Basic Data Visualizations and Predictions](https://github.com/rpwhite02/Portfolio/tree/main/Project%201)
 * Use python libraries pandas, matplotlib, seaborn, and scikit-learn.
